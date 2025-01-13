@@ -3,19 +3,41 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background-root: #0a0a0a;
+  --background-primary: #a81c1c;
+  --primary: #cbcbef;
+  --secondary: #eddb11;
+  --dark-primary: #1b1b25a0;
+  --dark-secondary: #131317;
+  --light-primary: #fdfdfd;
+  --light-secondary: #3d3c4f73;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--light-primary);
+  background: var(--background-root);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-outline {
+  text-shadow: 3px 3px 0px black, -3px -3px 0px black, 3px -3px 0px black,
+    -3px 3px 0px black;
+}
+
+.ranking-item-focus .manga-name,
+.ranking-item:hover .manga-name {
+  @apply text-secondary opacity-100;
+}
+
+.ranking-item-focus .manga-category,
+.ranking-item:hover .manga-category {
+  @apply opacity-100;
+}
+
+.ranking-title:hover .ranking-title-font {
+  @apply text-secondary;
 }
