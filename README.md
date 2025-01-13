@@ -1,37 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📖 Mangamania
 
-## Getting Started
+### Mangamania landing page build with Next, GSAP and Tailwind.
 
-First, run the development server:
+[![made-with-Next](https://img.shields.io/badge/Made%20with-Next.js%20-success)](https://nextjs.org/)
+[![made-with-TailwindCSS](https://img.shields.io/badge/Made%20with-TailwindCSS%20-blue)](https://tailwindcss.com/)
+[![made-with-GSAP](https://img.shields.io/badge/Made%20with-GSAP%20-yellow)](https://woocommerce.com/)
+[![deployed-on-Vercel](https://img.shields.io/badge/Deployed%20on-Vercel%20-orange)](https://vercel.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[📖Live Version](https://mangamania-gules.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📑 Table of Content
+- [📖 iPhoneMock](#-mangamania)
+  - [📑 Table of Content](#-table-of-content)
+  - [🌟 Features](#-features)
+  - [🧱 Dependencies](#-dependencies)
+  - [🚀 Getting Started](#-getting-started)
+  - [📘 Acknowledgements](#-acknowledgements)
+  - [🔨 Created By](#-created-by)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📷 Thumbnails
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Screen Shot 2025-01-12 at 8 45 01 PM](https://github.com/user-attachments/assets/4c4715d1-343e-41f2-9079-b5b24682f888)
 
-## Learn More
+## 📹 Recording
 
-To learn more about Next.js, take a look at the following resources:
+https://github.com/user-attachments/assets/1de3aaf2-eccd-4897-867d-447517dd8487
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🗺️ Figma Design File
+https://www.figma.com/design/iEGLK1nt9bBTCsOl1p2gPi/Mangamania?node-id=1-29&t=9MGl0yiBlpmGfIwC-1
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌟 Features
+- **TailwindCSS**: Build modern websites without leaving HTML
+- **Next.js Framework**: Provides server-side rendering and static site generation.
+- **GSAP**: Smooth Animation
 
-## Deploy on Vercel
+## 🧱 Dependencies
+- `gsap`: ^3.12.5
+- `@gsap/react`: ^2.1.1
+- `tailwindcss`: ^3.4.1
+- `three`: ^0.168.0
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# mangamania
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/jordanwang199507/mangamania.git
+   cd your-repo
+2. Install all the depndencies <br>
+   `npm install`
+3. Run the server
+   ```sh
+   npm run dev
+   ```
+
+## 📘 Acknowledgements
+- Next.js
+- GSAP
+- Tailwind
+
+## 🔨 Created and Desgined By
+- Jordan Wang @jordanwang199507
+- Inspired by @Design.Howard Instagram
