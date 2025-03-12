@@ -10,7 +10,7 @@
 [📖Live Version](https://mangamania-gules.vercel.app/)
 
 ## 📑 Table of Content
-- [📖 iPhoneMock](#-mangamania)
+- [📖 Mangamania](#-mangamania)
   - [📑 Table of Content](#-table-of-content)
   - [🌟 Features](#-features)
   - [🧱 Dependencies](#-dependencies)
